@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Akka": {
+      "commandName": "Project",
+      "commandLineArgs": "http://localhost:59817/"
+    }
+  }
+}

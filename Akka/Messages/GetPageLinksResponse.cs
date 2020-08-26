@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace ActorModelDemo.Akka.Messages
+{
+    internal sealed class GetPageLinksResponse
+    {
+        public GetPageLinksResponse(IEnumerable<Uri> uris)
+        {
+            if (uris == null) throw new ArgumentNullException(nameof(uris));
+
+            Uris = uris.ToArray();
+        }
+
+        public ICollection<Uri> Uris { get; }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Dataflow": {
+      "commandName": "Project",
+      "commandLineArgs": "http://localhost:59817/"
+    }
+  }
+}
