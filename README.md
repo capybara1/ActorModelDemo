@@ -30,6 +30,16 @@ Remarks:
   programming languages such as e.g. Erlang (1987), Go (2009), etc.
   - Erlang also facilitates the concept of supervision
 - Imutability is a core principle of functional programming languages
+- Alan Kay, who coined the term OOP, emphasized the importance of messaging
+  - > I’m sorry that I long ago coined the term “objects” for this topic
+    > because it gets many people to focus on the lesser idea.
+    > The big idea is messaging.
+  - > OOP to me means only messaging, local retention and protection and
+    > hiding of state-process, and extreme late-binding of all things
+- According to [The Forgotten History of OOP](https://medium.com/javascript-scene/the-forgotten-history-of-oop-88d71b9b2d9f):
+  > The big idea was to use encapsulated mini-computers in software
+  > which communicated via message passing rather than direct data sharing
+  > to stop breaking down programs into separate “data structures” and “procedures”
 
 Resources:
 
