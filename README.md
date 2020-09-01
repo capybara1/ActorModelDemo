@@ -6,9 +6,15 @@ Demonstrates the actor model for .NET using TPL Dataflow and Akka.NET.
 
 Motivation:
 
+- First described in 1973 by Carl Hewitt, Peter Bishop und Richard Steiger
 - Thread blocking and resource locking are considered computationally expensive
   and introduce the risk of deadlocks
 - Parallelism
+  - Muliple cores is the norm as of today
+- Reducing impacts of locality
+  - Processes can run anywhere
+  - Immutability implies that copies of the data resides at every location
+- Solving problems by allowing processes to crash
 
 Properties of an actor:
 
@@ -21,8 +27,18 @@ Properties of an actor:
 Remarks:
 
 - Actors are a first class language component in other
-  programming languages such as e.g. Erlang, Go, etc.
+  programming languages such as e.g. Erlang (1987), Go (2009), etc.
+  - Erlang also facilitates the concept of supervision
 - Imutability is a core principle of functional programming languages
+
+Resources:
+
+- [Actor Model - Wikipedia](https://en.wikipedia.org/wiki/Actor_model)
+- [Erlang](https://www.erlang.org/)
+- [Erlang Programming Language - Computerphile](https://www.youtube.com/watch?v=SOqQVoVai6s)
+- [Immutability - Computerphile](https://www.youtube.com/watch?v=8Sf6ToPNiA4)
+- [Go](https://golang.org/)
+- [Go (programming language) - Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language))
 
 ## TPL Dataflow Demo
 
@@ -86,6 +102,9 @@ Remarks:
 
 Resources:
 
+- Origin
+  - [Akka](https://akka.io/)
+  - [Akka (toolkit)](https://en.wikipedia.org/wiki/Akka_(toolkit))
 - Project
   - [Akka.NET](https://getakka.net/) project site
   - [akkadotnet/akka.net](https://github.com/akkadotnet/akka.net) GitHub project
